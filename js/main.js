@@ -12,7 +12,11 @@ const coloreUtente = prompt('Inserisci il tuo Colore preferito');
 //SECONDO STEP
 
     //CREA LA TUA NUOVA PASSWORD
-const passwordUtente = (nomeUtente + cognomeUtente + coloreUtente + 89);
+let passwordUtente = (nomeUtente + cognomeUtente + coloreUtente + "#89");
 
 console.log(passwordUtente);
 
+//TERZO STEP 
+
+    //INSERISCILA NEL HTML
+document.getElementById('new_password').innerHTML = passwordUtente;

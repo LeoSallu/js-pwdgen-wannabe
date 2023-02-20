@@ -1,3 +1,16 @@
 body:not(.card){
     background-color: #00de6b;
 }
+#new_password
+{
+    border: 2px solid #00de6b;
+    padding: .3125rem;
+    border-radius: 20px;
+    color: black;
+}
+#new_password:hover{
+    color: #f0f0f3;
+    background-color: #00de6b;
+    border: 2px solid #3535ec;
+    border-radius: 20px;
+}
