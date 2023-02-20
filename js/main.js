@@ -1,5 +1,4 @@
 //PRIMO STEP
-    console.log (prompt)
     // INSERISCI NOME 
 const nomeUtente = prompt('Inserisci il tuo Nome');
     
